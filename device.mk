@@ -14,7 +14,7 @@
 #
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/meliusltexx/melius3gxx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/melius3gxx/melius3gxx-vendor.mk)
 
 # Common overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/melius-common/overlay-gsm

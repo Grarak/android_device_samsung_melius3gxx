@@ -24,7 +24,7 @@
 -include device/samsung/melius-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/meliusltexx/BoardConfigVendor.mk
+-include vendor/samsung/melius3gxx/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := melius3g,melius3gxx,i9200,GT-I9200

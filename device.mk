@@ -20,9 +20,6 @@ $(call inherit-product-if-exists, vendor/samsung/melius3gxx/melius3gxx-vendor.mk
 $(call inherit-product, device/samsung/melius-common/melius-common.mk)
 $(call inherit-product, device/samsung/melius-common/nfc.mk)
 
-# Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/melius3gxx/overlay
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
